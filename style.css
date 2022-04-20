@@ -21,3 +21,11 @@ header {
   font-size: 18px;
 }
 
+#intro {
+  margin: 0 25px 0 25px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
