@@ -4,6 +4,11 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+#menue-button {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
 #logo {
   color: #6070ff;
   font-weight: 700;
