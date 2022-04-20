@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -7,7 +7,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 58px 25px 0 25px;
+  margin: 26px 25px 0 25px;
 }
 
 #menue-button {
@@ -27,6 +27,7 @@ header {
 }
 
 h1 {
+  padding-top: 80px;
   margin-right: 25px;
   margin-left: 25px;
   font-weight: 700;
@@ -38,6 +39,7 @@ p {
   margin-left: 25px;
   font-size: 16px;
   font-weight: 400;
+  margin-top: -26px;
 }
 
 h3 {
