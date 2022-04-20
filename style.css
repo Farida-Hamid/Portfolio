@@ -22,6 +22,11 @@ header {
 }
 
 #intro {
+  background: url("./images/header-shapes-mobile.jpg") no-repeat;
+  height: 600px;
+}
+
+h2 {
   margin: 0 25px 0 25px;
 }
 
