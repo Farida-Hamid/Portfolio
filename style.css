@@ -47,3 +47,10 @@ h3 {
   font-weight: 400;
   text-transform: uppercase;
 }
+
+#social {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 170px;
+  margin-left: 25px;
+}
