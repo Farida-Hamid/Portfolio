@@ -26,7 +26,7 @@ header {
   height: 600px;
 }
 
-h2 {
+h1 {
   margin-right: 25px;
   margin-left: 25px;
   font-weight: 700;
@@ -49,8 +49,9 @@ h3 {
 }
 
 #social {
+  list-style: none;
   display: flex;
   justify-content: space-between;
   margin-right: 170px;
-  margin-left: 25px;
+  margin-left: -14px;
 }
