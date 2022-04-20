@@ -4,6 +4,12 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 58px 25px 0 25px;
+}
+
 #menue-button {
   padding-top: 7px;
   padding-bottom: 7px;
