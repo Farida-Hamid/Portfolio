@@ -88,8 +88,7 @@ button {
 .expertise {
   display: flex;
   justify-content: space-between;
-  margin-right: 64px;
-  margin-left: -14px;
+  margin: 48px 64px 0 -14px;
 }
 
 .arrow {
@@ -102,4 +101,8 @@ h5 {
   margin: 0;
   font-weight: 500;
   font-size: 20px;
+}
+
+#list {
+  margin-top: 60px;
 }
