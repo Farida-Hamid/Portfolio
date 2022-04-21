@@ -50,10 +50,20 @@ h3 {
   text-transform: uppercase;
 }
 
-#social {
+.social {
   list-style: none;
   display: flex;
   justify-content: space-between;
   margin-right: 170px;
   margin-left: -14px;
+}
+
+main {
+  background-color: #e5e5e5;
+}
+
+#about-me {
+  margin-top: 114px;
+  background-color: white;
+  border-top-right-radius: 16px;
 }
