@@ -51,8 +51,11 @@ h3 {
   text-transform: uppercase;
 }
 
-.social {
+li {
   list-style: none;
+}
+
+.social {
   display: flex;
   justify-content: space-between;
   margin-right: 170px;
@@ -80,4 +83,23 @@ button {
 
 #about-me button {
   margin-left: 25px;
+}
+
+.expertise {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 64px;
+  margin-left: -14px;
+}
+
+.arrow {
+  width: 11px;
+  height: 11px;
+  margin-top: 12px;
+}
+
+h5 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
 }
