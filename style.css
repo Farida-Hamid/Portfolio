@@ -67,3 +67,16 @@ main {
   background-color: white;
   border-top-right-radius: 16px;
 }
+
+button {
+  border-color: #396df2;
+  color: #396df2;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+#about-me button {
+  margin-left: 25px;
+}
