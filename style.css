@@ -24,6 +24,7 @@ header {
 #intro {
   background: url("./images/header-shapes-mobile.jpg") no-repeat;
   height: 600px;
+  border-bottom-left-radius: 75px;
 }
 
 h1 {
@@ -65,7 +66,7 @@ main {
 #about-me {
   margin-top: 114px;
   background-color: white;
-  border-top-right-radius: 16px;
+  border-top-right-radius: 75px;
 }
 
 button {
