@@ -100,6 +100,20 @@ li {
   text-transform: uppercase;
 }
 
+.prog-languages {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 100px 0 -40px;
+  color: #6070ff;
+  font-size: 12px;
+}
+
+.lang {
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+}
+
 #about-me {
   margin-top: 114px;
   background-color: white;
