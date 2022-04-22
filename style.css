@@ -21,6 +21,10 @@ header {
   font-size: 18px;
 }
 
+main {
+  background-color: #e5e5e5;
+}
+
 #intro {
   background: url("./images/header-shapes-mobile.jpg") no-repeat;
   height: 600px;
@@ -62,8 +66,15 @@ li {
   margin-left: -14px;
 }
 
-main {
-  background-color: #e5e5e5;
+.project {
+  display: grid;
+  background-color: white;
+  margin: 88px 14px 88px 14px;
+  border-radius: 10px;
+}
+
+.project img {
+  margin: 16px 16px 12px 16px;
 }
 
 #about-me {
@@ -105,4 +116,22 @@ h5 {
 
 #list {
   margin-top: 60px;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 48px 64px 0 -14px;
+  background: #f7f7f9;
+  padding: 12px 21px 12px 21px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+  height: fit-content;
 }
