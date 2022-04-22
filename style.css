@@ -89,7 +89,7 @@ li {
 .tech {
   display: flex;
   justify-content: space-between;
-  margin: 0 50px 10px -40px;
+  margin: 20px 50px 20px -40px;
   color: #7a869a;
   font-weight: 600;
   font-size: 13px;
@@ -103,7 +103,7 @@ li {
 .prog-languages {
   display: flex;
   justify-content: space-between;
-  margin: 20px 100px 0 -40px;
+  margin: 16px 100px 0 -40px;
   color: #6070ff;
   font-size: 12px;
 }
