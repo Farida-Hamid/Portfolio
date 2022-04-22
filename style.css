@@ -32,11 +32,14 @@ main {
 }
 
 h1 {
-  padding-top: 80px;
   margin-right: 25px;
   margin-left: 25px;
   font-weight: 700;
   font-size: 40px;
+}
+
+#intro h1 {
+  padding-top: 80px;
 }
 
 p {
