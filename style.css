@@ -38,16 +38,24 @@ h1 {
   font-size: 40px;
 }
 
-#intro h1 {
-  padding-top: 80px;
-}
-
 p {
   margin-right: 25px;
   margin-left: 25px;
   font-size: 16px;
   font-weight: 400;
   margin-top: -26px;
+}
+
+.project h1 {
+  margin: 0;
+}
+
+.project p {
+  margin: 0;
+}
+
+#intro h1 {
+  padding-top: 80px;
 }
 
 h3 {
@@ -70,14 +78,26 @@ li {
 }
 
 .project {
-  display: grid;
-  background-color: white;
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  background-color: #fff;
   margin: 88px 14px 88px 14px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
-.project img {
-  margin: 16px 16px 12px 16px;
+.tech {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px 10px -40px;
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.company-name {
+  color: #344563;
+  text-transform: uppercase;
 }
 
 #about-me {
