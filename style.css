@@ -129,6 +129,10 @@ button {
   padding: 10px;
 }
 
+.project button {
+  margin: 30px 160px 30px 0;
+}
+
 #about-me button {
   margin-left: 25px;
 }
