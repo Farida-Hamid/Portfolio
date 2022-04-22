@@ -120,6 +120,10 @@ li {
   border-top-right-radius: 75px;
 }
 
+#about-me h1 {
+  padding-top: 114px;
+}
+
 button {
   border-color: #396df2;
   color: #396df2;
@@ -175,4 +179,8 @@ h6 {
   font-size: 15px;
   margin: 0;
   height: fit-content;
+}
+
+#languages-list {
+  margin-top: 36px;
 }
