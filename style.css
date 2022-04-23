@@ -116,12 +116,9 @@ li {
   border-top-right-radius: 75px;
 }
 
-.project h2 {
-  margin: 20px 0 20px;
-}
-
 #about-me h2 {
-  margin: 114px 0 20px 25px;
+  padding: 114px 0 12px 25px;
+  font-size: 40px;
 }
 
 button {
@@ -162,6 +159,7 @@ h5 {
 
 #list {
   margin-top: 60px;
+  margin-bottom: 150px;
 }
 
 .languages {
