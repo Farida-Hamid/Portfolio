@@ -21,13 +21,17 @@ header {
   font-size: 18px;
 }
 
+main {
+  background-color: #e5e5e5;
+}
+
 #intro {
   background: url("./images/header-shapes-mobile.jpg") no-repeat;
   height: 600px;
+  border-bottom-left-radius: 75px;
 }
 
 h1 {
-  padding-top: 80px;
   margin-right: 25px;
   margin-left: 25px;
   font-weight: 700;
@@ -42,6 +46,14 @@ p {
   margin-top: -26px;
 }
 
+.project p {
+  margin: 0;
+}
+
+#intro h1 {
+  padding-top: 80px;
+}
+
 h3 {
   font-size: 16px;
   margin-left: 25px;
@@ -50,10 +62,131 @@ h3 {
   text-transform: uppercase;
 }
 
-#social {
+li {
   list-style: none;
+}
+
+.social {
   display: flex;
   justify-content: space-between;
   margin-right: 170px;
   margin-left: -14px;
+}
+
+.project {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 88px 14px 88px 14px;
+  border-radius: 8px;
+}
+
+div {
+  padding: 114px 0 12px 25px;
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+
+div h2 {
+  margin: 0;
+}
+
+.project h2 {
+  font-size: 32px;
+}
+
+.tech {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px 20px -40px;
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.company-name {
+  color: #344563;
+  text-transform: uppercase;
+}
+
+.prog-languages {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 100px 0 -40px;
+  color: #6070ff;
+  font-size: 12px;
+}
+
+.lang {
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+}
+
+#about-me {
+  margin-top: 114px;
+  background-color: white;
+  border-top-right-radius: 75px;
+}
+
+button {
+  border-color: #396df2;
+  color: #396df2;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.project button {
+  display: grid;
+  margin: 30px 160px 30px 0;
+}
+
+#about-me button {
+  margin-left: 25px;
+}
+
+.expertise {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 64px 0 -14px;
+}
+
+.arrow {
+  width: 11px;
+  height: 11px;
+  margin-top: 12px;
+}
+
+h5 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#list {
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+
+.languages {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+  background: #f7f7f9;
+  padding: 12px 21px 12px 21px;
+  margin: 10px 36px 10px -55px;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+  height: fit-content;
+}
+
+#languages-list {
+  margin-top: 36px;
 }
