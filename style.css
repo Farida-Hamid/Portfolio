@@ -46,10 +46,6 @@ p {
   margin-top: -26px;
 }
 
-.project h1 {
-  margin: 0;
-}
-
 .project p {
   margin: 0;
 }
@@ -89,7 +85,7 @@ li {
 .tech {
   display: flex;
   justify-content: space-between;
-  margin: 20px 50px 20px -40px;
+  margin: 0 50px 20px -40px;
   color: #7a869a;
   font-weight: 600;
   font-size: 13px;
@@ -120,8 +116,12 @@ li {
   border-top-right-radius: 75px;
 }
 
-#about-me h1 {
-  padding-top: 114px;
+.project h2 {
+  margin: 20px 0 20px;
+}
+
+#about-me h2 {
+  margin: 114px 0 20px 25px;
 }
 
 button {
@@ -134,6 +134,7 @@ button {
 }
 
 .project button {
+  display: grid;
   margin: 30px 160px 30px 0;
 }
 
@@ -165,13 +166,11 @@ h5 {
 
 .languages {
   display: flex;
-  justify-content: space-between;
+  column-gap: 16px;
   align-items: center;
-  margin: 48px 64px 0 -14px;
   background: #f7f7f9;
   padding: 12px 21px 12px 21px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 36px 10px -55px;
 }
 
 h6 {
