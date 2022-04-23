@@ -82,6 +82,20 @@ li {
   border-radius: 8px;
 }
 
+div {
+  padding: 114px 0 12px 25px;
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+
+div h2 {
+  margin: 0;
+}
+
+.project h2 {
+  font-size: 32px;
+}
+
 .tech {
   display: flex;
   justify-content: space-between;
@@ -114,11 +128,6 @@ li {
   margin-top: 114px;
   background-color: white;
   border-top-right-radius: 75px;
-}
-
-#about-me h2 {
-  padding: 114px 0 12px 25px;
-  font-size: 40px;
 }
 
 button {
