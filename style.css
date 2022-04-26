@@ -191,7 +191,7 @@ h6 {
   margin-top: 36px;
 }
 
-#form{
+#form {
   background: url('/images/contact-form-shapes-mobile.png') no-repeat;
   background-position: 100%;
   border-top-left-radius: 75px;
@@ -203,12 +203,17 @@ h6 {
   color: #fff;
 }
 
-#form h2{
+#form h2 {
   font-weight: 700;
   font-size: 40px;
-  
 }
 
-#form p{
+#form p {
   text-align: center;
+}
+
+#name {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px 120px 15px 16px;
 }
