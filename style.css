@@ -218,7 +218,7 @@ h6 {
   min-width: 300px;
 }
 
-#form input {
+#form input, textarea {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   width: 100%;
