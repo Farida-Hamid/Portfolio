@@ -190,3 +190,19 @@ h6 {
 #languages-list {
   margin-top: 36px;
 }
+
+#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form h2{
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+#form p{
+  text-align: center;
+}
