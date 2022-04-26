@@ -200,12 +200,13 @@ h6 {
   flex-direction: column;
   align-items: center;
   height: 779px;
+  color: #fff;
 }
 
 #form h2{
   font-weight: 700;
   font-size: 40px;
-  color: #fff;
+  
 }
 
 #form p{
