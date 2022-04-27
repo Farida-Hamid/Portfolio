@@ -168,7 +168,7 @@ h5 {
 
 #list {
   margin-top: 60px;
-  margin-bottom: 150px;
+  padding-bottom: 150px;
 }
 
 .languages {
@@ -189,4 +189,54 @@ h6 {
 
 #languages-list {
   margin-top: 36px;
+}
+
+#form-section {
+  background: url('/images/contact-form-shapes-mobile.png') no-repeat;
+  background-position: 100%;
+  border-top-left-radius: 75px;
+  background-color: #6070ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 779px;
+  color: #fff;
+}
+
+#form-section h2 {
+  margin-top: 103px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+#form-section p {
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-width: 300px;
+  margin-top: 20px;
+  height: 400px;
+}
+
+#form input,
+textarea {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 25px;
+  padding: 10px 5px 10px 5px;
+  text-indent: 20px;
+}
+
+#form textarea {
+  padding-bottom: 170px;
+}
+
+#form button {
+  margin-right: 211px;
 }
