@@ -236,3 +236,7 @@ textarea {
 #form textarea {
   padding-bottom: 170px;
 }
+
+#form button {
+  margin-right: 211px;
+}
