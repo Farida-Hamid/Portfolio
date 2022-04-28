@@ -139,6 +139,7 @@ button {
   border-radius: 5px;
   background-color: white;
   padding: 10px;
+  width: fit-content;
 }
 
 .project button {
