@@ -137,7 +137,18 @@ button {
   border-radius: 5px;
   background-color: white;
   padding: 10px;
+  transition: all 0.5s ease-out;
 }
+
+button:hover{
+  background-color: #396df2;
+  color: white;
+}
+
+button:active {
+  background-color: #2230d2;
+}
+
 
 .project button {
   display: grid;
