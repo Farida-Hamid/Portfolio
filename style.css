@@ -140,6 +140,12 @@ button {
   transition: all 0.5s ease-out;
 }
 
+button:hover{
+  cursor: pointer;
+  background-color: #396df2;
+  color: white;
+}
+
 
 .project button {
   display: grid;
