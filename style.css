@@ -97,7 +97,7 @@ div h2 {
 
 .tech {
   display: flex;
-  justify-content: space-between;
+  gap: 12px;
   margin: 0 50px 20px -40px;
   color: #7a869a;
   font-weight: 600;
@@ -111,7 +111,7 @@ div h2 {
 
 .prog-languages {
   display: flex;
-  justify-content: space-between;
+  gap: 8px;
   margin: 16px 100px 0 -40px;
   color: #6070ff;
   font-size: 12px;
