@@ -39,11 +39,11 @@ h1 {
 }
 
 p {
-  margin-right: 25px;
-  margin-left: 25px;
+  margin: -26px 25px 0 25px;
   font-size: 16px;
   font-weight: 400;
-  margin-top: -26px;
+  max-width: 496px;
+  min-width: 327px;
 }
 
 .project p {
@@ -125,10 +125,10 @@ div h2 {
 
 #about-me {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   margin-top: 114px;
   background-color: white;
-  border-top-right-radius: 75px;
 }
 
 button {
