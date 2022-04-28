@@ -125,6 +125,8 @@ div h2 {
 }
 
 #about-me {
+  display: flex;
+  flex-direction: column;
   margin-top: 114px;
   background-color: white;
   border-top-right-radius: 75px;
