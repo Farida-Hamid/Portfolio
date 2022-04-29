@@ -95,7 +95,7 @@ li {
   min-height: 220px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .project {
     flex-grow: 1;
     flex-direction: row;
@@ -178,7 +178,7 @@ div h2 {
   width: 303px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   #about-me {
     height: 900px;
   }
@@ -189,18 +189,20 @@ div h2 {
 
   .languages {
     flex-direction: column;
-    width: 122px;
+    width: 60px;
     margin: auto auto auto -60px;
   }
 
   #languages-list {
     display: flex;
     gap: 12px;
+    max-width: 350px
   }
 }
 
 #right-side {
   max-height: 924px;
+  max-width: 447px;
 }
 
 #right-side .social {
