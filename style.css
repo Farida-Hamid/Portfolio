@@ -74,13 +74,21 @@ li {
 
 .project {
   display: flex;
+  flex-direction: column;
   padding: 16px;
   background-color: #fff;
   margin: 88px 14px 88px 14px;
   border-radius: 8px;
 }
 
-.snapshot {
+.project-properties {
+  margin-top: -87px;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+.snapshot,
+.snapshot2 {
   max-width: 544px;
   max-height: 448px;
   min-width: 295px;
@@ -91,10 +99,16 @@ li {
   .project {
     flex-grow: 1;
     flex-direction: row;
+    gap: 46px;
   }
 
-  .snapshot {
-    flex-grow: 5;
+  .snapshot,
+  .snapshot2 {
+    flex-grow: 1;
+  }
+
+  .snapshot2 {
+    order: 1;
   }
 }
 
