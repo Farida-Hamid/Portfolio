@@ -282,6 +282,15 @@ h6 {
   color: #fff;
 }
 
+@media (min-width: 768px) {
+  #form-section {
+    background: url('./images/web-contact-form-background-shapes@2x.svg') no-repeat;
+    background-position: 100%;
+    border-top-left-radius: 75px;
+    background-color: #6070ff;
+  }
+}
+
 #form-section h2 {
   margin-top: 103px;
   font-weight: 700;
