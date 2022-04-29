@@ -81,6 +81,11 @@ li {
   border-radius: 8px;
 }
 
+.project img {
+  max-width: 544px;
+  max-height: 448px;
+}
+
 div {
   padding: 114px 0 12px 25px;
   margin-bottom: 25px;
