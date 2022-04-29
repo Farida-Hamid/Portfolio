@@ -75,15 +75,27 @@ li {
 .project {
   display: flex;
   padding: 16px;
-  flex-direction: column;
   background-color: #fff;
   margin: 88px 14px 88px 14px;
   border-radius: 8px;
 }
 
-.project img {
+.snapshot {
   max-width: 544px;
   max-height: 448px;
+  min-width: 295px;
+  min-height: 220px;
+}
+
+@media (min-width: 600px) {
+  .project {
+    flex-grow: 1;
+    flex-direction: row;
+  }
+
+  .snapshot {
+    flex-grow: 5;
+  }
 }
 
 div {
