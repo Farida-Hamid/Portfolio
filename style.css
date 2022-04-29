@@ -58,6 +58,7 @@ p {
 
 .project p {
   margin: 0;
+  min-width: 200px;
 }
 
 #intro p {
@@ -95,9 +96,14 @@ li {
 }
 
 .project-properties {
-  margin-top: -87px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+  margin-top: 10px;
   padding-right: 5px;
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 .snapshot,
@@ -196,7 +202,7 @@ button {
 
 .project button {
   display: grid;
-  margin: 30px 160px 30px 0;
+  margin: 30px 160px 10px 0;
 }
 
 #right-side button {
@@ -298,13 +304,21 @@ textarea {
   .project {
     flex-grow: 1;
     flex-direction: row;
-    gap: 46px;
+    gap: 1%;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  #project-properties {
+    min-width: 10%;
+    padding-bottom: 0;
   }
 
   .snapshot,
   .snapshot2 {
-    flex-grow: 1;
+    flex-grow: 3;
     width: 50%;
+    height: 50%;
   }
 
   .snapshot2 {
@@ -318,7 +332,6 @@ textarea {
   #right-side {
     flex-shrink: 2;
   }
-
 
   #right-side p {
     width: 300px;
