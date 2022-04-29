@@ -32,6 +32,13 @@ main {
   border-bottom-left-radius: 75px;
 }
 
+#intro-content {
+  align-items: center;
+  max-width: fit-content;
+  /* margin: 0; */
+  /* border:#344563 3px solid; */
+}
+
 @media (min-width: 768px) {
   #intro {
     background: url("./images/Header-bg.svg ") no-repeat;
@@ -41,21 +48,10 @@ main {
 
   #intro-content {
     padding: 0;
-    align-items: center;
-    /* align-self: center; */
-  }
-
-  #intro div {
     padding-top: 80px;
+    margin: auto;
+    width: 50%;
   }
-
-  #intro p {
-    max-width: 920px;
-  }
-/* 
-  #intro .social {
-    justify-content: center;
-  } */
 }
 
 h1 {
@@ -73,7 +69,12 @@ p {
   font-size: 16px;
   font-weight: 400;
   max-width: 496px;
-  min-width: 327px;
+}
+
+#intro p {
+  /* margin: 0; */
+  padding: 0;
+  margin-top: 20px;
 }
 
 .project p {
@@ -96,6 +97,8 @@ li {
   display: flex;
   gap: 20px;
   margin-left: -14px;
+  margin-top: -30px;
+  margin-bottom: 0;
 }
 
 .project {
