@@ -129,6 +129,43 @@ div h2 {
   flex-direction: column;
   margin-top: 114px;
   background-color: white;
+  border-top-left-radius: 75px;
+}
+
+#list {
+  margin-top: 60px;
+  padding-bottom: 150px;
+}
+
+.languages {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+  background: #f7f7f9;
+  padding: 12px 21px 12px 21px;
+  margin: 10px 36px 10px -55px;
+  width: 303px;
+}
+
+@media (min-width: 600px) {
+  #about-me {
+    height: 900px;
+  }
+
+  #list {
+    margin-top: 200px;
+  }
+
+  .languages {
+    flex-direction: column;
+    width: 122px;
+    margin: auto auto auto -60px;
+  }
+
+  #languages-list {
+    display: flex;
+    gap: 12px;
+  }
 }
 
 #right-side {
@@ -163,6 +200,7 @@ button {
   display: flex;
   justify-content: space-between;
   margin: 48px 64px 0 -14px;
+  width: 300px;
 }
 
 .arrow {
@@ -175,20 +213,6 @@ h5 {
   margin: 0;
   font-weight: 500;
   font-size: 20px;
-}
-
-#list {
-  margin-top: 60px;
-  padding-bottom: 150px;
-}
-
-.languages {
-  display: flex;
-  column-gap: 16px;
-  align-items: center;
-  background: #f7f7f9;
-  padding: 12px 21px 12px 21px;
-  margin: 10px 36px 10px -55px;
 }
 
 h6 {
