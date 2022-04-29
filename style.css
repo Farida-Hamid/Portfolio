@@ -26,7 +26,7 @@ main {
 }
 
 #intro {
-  background: url("./images/header-shapes-mobile.jpg") no-repeat;
+  background: url("./images/header-shapes-mobile.svg") no-repeat;
   height: 600px;
   background-color: white;
   border-bottom-left-radius: 75px;
@@ -36,12 +36,32 @@ main {
   #intro {
     background: url("./images/Header-bg.svg ") no-repeat;
     background-color: white;
-    text-align: center;
     background-position: 100%;
   }
+
+  #intro-content {
+    padding: 0;
+    align-items: center;
+    /* align-self: center; */
+  }
+
+  #intro div {
+    padding-top: 80px;
+  }
+
+  #intro p {
+    max-width: 920px;
+  }
+/* 
+  #intro .social {
+    justify-content: center;
+  } */
 }
 
 h1 {
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0;
   margin-right: 25px;
   margin-left: 25px;
   font-weight: 700;
@@ -58,10 +78,6 @@ p {
 
 .project p {
   margin: 0;
-}
-
-#intro h1 {
-  padding-top: 80px;
 }
 
 h3 {
@@ -271,7 +287,7 @@ h6 {
 }
 
 #form-section {
-  background: url('./images/contact-form-shapes-mobile.png') no-repeat;
+  background: url('./images/contact-form-shapes-mobile.svg') no-repeat;
   background-position: 100%;
   border-top-left-radius: 75px;
   background-color: #6070ff;
