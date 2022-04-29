@@ -35,23 +35,8 @@ main {
 #intro-content {
   align-items: center;
   max-width: fit-content;
-  /* margin: 0; */
-  /* border:#344563 3px solid; */
-}
-
-@media (min-width: 768px) {
-  #intro {
-    background: url("./images/Header-bg.svg ") no-repeat;
-    background-color: white;
-    background-position: 100%;
-  }
-
-  #intro-content {
-    padding: 0;
-    padding-top: 80px;
-    margin: auto;
-    width: 50%;
-  }
+  padding: 0;
+  padding-top: 80px;
 }
 
 h1 {
@@ -71,14 +56,13 @@ p {
   max-width: 496px;
 }
 
-#intro p {
-  /* margin: 0; */
-  padding: 0;
-  margin-top: 20px;
-}
-
 .project p {
   margin: 0;
+}
+
+#intro p {
+  padding: 0;
+  margin-top: 20px;
 }
 
 h3 {
@@ -122,24 +106,6 @@ li {
   max-height: 448px;
   min-width: 295px;
   min-height: 220px;
-}
-
-@media (min-width: 768px) {
-  .project {
-    flex-grow: 1;
-    flex-direction: row;
-    gap: 46px;
-  }
-
-  .snapshot,
-  .snapshot2 {
-    flex-grow: 1;
-    width: 50%;
-  }
-
-  .snapshot2 {
-    order: 1;
-  }
 }
 
 div {
@@ -206,28 +172,6 @@ div h2 {
   padding: 12px 21px 12px 21px;
   margin: 10px 36px 10px -55px;
   width: 303px;
-}
-
-@media (min-width: 768px) {
-  #about-me {
-    height: 900px;
-  }
-
-  #list {
-    margin-top: 200px;
-  }
-
-  .languages {
-    flex-direction: column;
-    width: 60px;
-    margin: auto auto auto -60px;
-  }
-
-  #languages-list {
-    display: flex;
-    gap: 12px;
-    max-width: 350px;
-  }
 }
 
 #right-side {
@@ -301,15 +245,6 @@ h6 {
   color: #fff;
 }
 
-@media (min-width: 768px) {
-  #form-section {
-    background: url('./images/web-contact-form-background-shapes@2x.svg') no-repeat;
-    background-position: 100%;
-    border-top-left-radius: 75px;
-    background-color: #6070ff;
-  }
-}
-
 #form-section h2 {
   margin-top: 103px;
   font-weight: 700;
@@ -346,4 +281,60 @@ textarea {
 
 #form button {
   margin-right: 211px;
+}
+
+@media (min-width: 768px) {
+  #intro {
+    background: url("./images/Header-bg.svg ") no-repeat;
+    background-color: white;
+    background-position: 100%;
+  }
+
+  #intro-content {
+    margin: auto;
+    width: 50%;
+  }
+
+  .project {
+    flex-grow: 1;
+    flex-direction: row;
+    gap: 46px;
+  }
+
+  .snapshot,
+  .snapshot2 {
+    flex-grow: 1;
+    width: 50%;
+  }
+
+  .snapshot2 {
+    order: 1;
+  }
+
+  #about-me {
+    height: 900px;
+  }
+
+  #list {
+    margin-top: 200px;
+  }
+
+  .languages {
+    flex-direction: column;
+    width: 60px;
+    margin: auto auto auto -60px;
+  }
+
+  #languages-list {
+    display: flex;
+    gap: 12px;
+    max-width: 350px;
+  }
+
+  #form-section {
+    background: url('./images/web-contact-form-background-shapes@2x.svg') no-repeat;
+    background-position: 100%;
+    border-top-left-radius: 75px;
+    background-color: #6070ff;
+  }
 }
