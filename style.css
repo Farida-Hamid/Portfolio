@@ -28,7 +28,17 @@ main {
 #intro {
   background: url("./images/header-shapes-mobile.jpg") no-repeat;
   height: 600px;
+  background-color: white;
   border-bottom-left-radius: 75px;
+}
+
+@media (min-width: 768px) {
+  #intro {
+    background: url("./images/Header-bg.svg ") no-repeat;
+    background-color: white;
+    text-align: center;
+    background-position: 100%;
+  }
 }
 
 h1 {
@@ -105,6 +115,7 @@ li {
   .snapshot,
   .snapshot2 {
     flex-grow: 1;
+    width: 50%;
   }
 
   .snapshot2 {
@@ -196,7 +207,7 @@ div h2 {
   #languages-list {
     display: flex;
     gap: 12px;
-    max-width: 350px
+    max-width: 350px;
   }
 }
 
@@ -260,7 +271,7 @@ h6 {
 }
 
 #form-section {
-  background: url('/images/contact-form-shapes-mobile.png') no-repeat;
+  background: url('./images/contact-form-shapes-mobile.png') no-repeat;
   background-position: 100%;
   border-top-left-radius: 75px;
   background-color: #6070ff;
