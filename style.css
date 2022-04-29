@@ -207,7 +207,7 @@ button {
   display: flex;
   justify-content: space-between;
   margin: 48px 64px 0 -14px;
-  width: 300px;
+  width: 280px;
 }
 
 .arrow {
@@ -315,8 +315,18 @@ textarea {
     height: 900px;
   }
 
+  #right-side {
+    flex-shrink: 2;
+  }
+
+
+  #right-side p {
+    width: 300px;
+  }
+
   #list {
     margin-top: 200px;
+    margin-left: -40px;
   }
 
   .languages {
