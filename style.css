@@ -376,4 +376,9 @@ textarea {
     border-top-left-radius: 75px;
     background-color: #6070ff;
   }
+
+  #form button {
+    margin-right: 0;
+    align-self: center;
+  }
 }
