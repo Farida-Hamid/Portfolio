@@ -21,6 +21,10 @@ header {
   font-size: 18px;
 }
 
+#top {
+  display: none;
+}
+
 main {
   background-color: #e5e5e5;
 }
