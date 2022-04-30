@@ -238,6 +238,10 @@ button {
   margin-top: 12px;
 }
 
+hr {
+  margin: 40px 10% 0 -10%;
+}
+
 h5 {
   margin: 0;
   font-weight: 500;
