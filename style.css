@@ -216,8 +216,8 @@ button {
 .expertise {
   display: flex;
   justify-content: space-between;
-  margin: 48px 64px 0 -14px;
-  width: 280px;
+  margin: 48px 25% 0 -14px;
+  width: auto;
 }
 
 .arrow {
