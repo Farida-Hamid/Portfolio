@@ -310,6 +310,10 @@ textarea {
     background-position: 100%;
   }
 
+  #menue-button {
+    display: none;
+  }
+
   #top {
     display: flex;
     justify-content: space-between;
