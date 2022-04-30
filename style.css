@@ -205,8 +205,20 @@ button {
 }
 
 .project button {
-  display: grid;
-  margin: 30px 160px 10px 0;
+  border: 1px solid #7f8cff;
+  background: #fff;
+  color: #6070ff;
+  cursor: pointer;
+}
+
+.project button:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.project button:active {
+  background: #2230d2;
+  color: #fff;
 }
 
 #right-side button {
