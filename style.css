@@ -199,6 +199,7 @@ button {
   background-color: white;
   padding: 10px;
   width: fit-content;
+  transition: all 0.5s ease-out;
 }
 
 .project button {
