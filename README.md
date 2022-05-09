@@ -11,6 +11,10 @@
 - HTML
 - CSS
 
+## Live Demo (if available)
+
+[Live Demo Link](https://farida-hamid.github.io/Portfolio/)
+
 ## Getting Started
 
 ### Prerequisites
