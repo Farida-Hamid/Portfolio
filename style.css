@@ -207,22 +207,8 @@ button:hover {
   color: white;
 }
 
-button:active {
-  background-color: #2230d2;
-}
-
 .project button {
   cursor: pointer;
-}
-
-.project button:hover {
-  background: #6070ff;
-  color: #fff;
-}
-
-.project button:active {
-  background: #2230d2;
-  color: #fff;
 }
 
 #right-side button {
