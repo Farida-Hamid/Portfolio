@@ -97,6 +97,7 @@ li {
   background-color: #fff;
   margin: 88px 14px 88px 14px;
   border-radius: 8px;
+  max-height: 496px;
 }
 
 .project-properties {
@@ -343,8 +344,8 @@ textarea {
   .snapshot,
   .snapshot2 {
     flex-grow: 3;
-    width: 50%;
-    height: 50%;
+    max-width: 544px;
+    max-height: 448px;
   }
 
   .snapshot2 {
