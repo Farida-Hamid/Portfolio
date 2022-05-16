@@ -10,7 +10,12 @@ open.addEventListener('click',()=> {
   window.className = 'window';
   const popup = document.createElement('div');
   popup.className = 'popup';
-  popup.innerHTML = `<div class="all"></div>`
+  popup.innerHTML = `<div class="all">
+
+  <span>Portifolio</span>
+  <span>about</span>
+  <span>contact</span>
+  </div>`
 
   window.appendChild(popup);
   header.appendChild(window);
