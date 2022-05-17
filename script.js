@@ -5,25 +5,25 @@ header.appendChild(section);
 
 const open = document.querySelector('#menue-button');
 
-open.addEventListener('click', () => {
+open.addEventListener('click',()=> {
   const window = document.createElement('div');
   window.className = 'window';
   const popup = document.createElement('div');
   popup.className = 'popup';
   popup.innerHTML = `<div class="all">
+  <i class="fa-solid fa-xmark close"></i>
+  <ul class="popup">
+  <li id="portifolio">portifolio</li>
+  <li id="about">about</li>
+  <li id="contact">contact</li>
+  </ul>
+    </div>`;
 
-  <span>Portifolio</span>
-  <span>about</span>
-  <span>contact</span>
-  </div>
-  
-  <button type='button' class="close">X</button>`
 
   window.appendChild(popup);
   header.appendChild(window);
-
   const close = document.querySelector('.close');
   close.addEventListener('click', () => {
-    header.remove('window');
-  })
+    header.removeChild(window);
+  });
 })
