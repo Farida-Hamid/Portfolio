@@ -4,7 +4,7 @@ header.appendChild(section);
 
 const open = document.querySelector('#menue-button');
 
-open.addEventListener('click',()=> {
+open.addEventListener('click', () => {
   const window = document.createElement('div');
   window.className = 'window';
   const popup = document.createElement('div');
@@ -25,4 +25,4 @@ open.addEventListener('click',()=> {
   close.addEventListener('click', () => {
     header.removeChild(window);
   });
-})
+});
