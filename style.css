@@ -26,6 +26,7 @@ header {
 }
 
 .all{
+<<<<<<< HEAD
   display: block;
   position: fixed;
   top: 0;
@@ -36,8 +37,115 @@ header {
   backdrop-filter: blur(8px);
   opacity: 0.9;
   z-index: 99;
+=======
+<<<<<<< HEAD
+  display: block;
+  position: fixed;
+=======
+  position: absolute;
+>>>>>>> 144fd2a658f32312ff83976748ce815eedb4c270
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+<<<<<<< HEAD
+height: 100%;
+width: 100%;
+/* Theme 1 / Primary Colors 2 */
+=======
+height: 100vh;
+width: 100vw;
+background: #6070FF;
+mix-blend-mode: multiply;
 }
+#portifolio{
+  display: flex;
+align-items: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+/* Theme 1 / Neutrals 11 */
 
+color: #FFFFFF;
+
+>>>>>>> d9af025a383f73d62a39072026d9fcadf916d13e
+}
+#about{
+  
+    display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  /* Theme 1 / Neutrals 11 */
+  
+  color: #FFFFFF;
+  
+  }
+#contact{
+    display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+  
+}
+>>>>>>> 144fd2a658f32312ff83976748ce815eedb4c270
+
+background: #6070FF;
+mix-blend-mode: multiply;
+/* opacity: 0.9; */
+  z-index: 99;
+  backdrop-filter: blur(8px);
+}
+#portifolio{
+  display: flex;
+align-items: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+/* Theme 1 / Neutrals 11 */
+
+color: #FFFFFF;
+
+}
+#about{
+  
+    display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  /* Theme 1 / Neutrals 11 */
+  
+  color: #FFFFFF;
+  
+  }
+#contact{
+    display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  /* Theme 1 / Neutrals 11 */
+  
+  color: #FFFFFF;
+  
+  
+}
 main {
   background-color: #e5e5e5;
 }
