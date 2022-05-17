@@ -5,7 +5,7 @@ header.appendChild(section);
 
 const open = document.querySelector('#menue-button');
 
-open.addEventListener('click',()=> {
+open.addEventListener('click', () => {
   const window = document.createElement('div');
   window.className = 'window';
   const popup = document.createElement('div');
@@ -15,8 +15,12 @@ open.addEventListener('click',()=> {
   <span>Portifolio</span>
   <span>about</span>
   <span>contact</span>
-  </div>`
+  </div>
+  
+  <button type='button' class="close">X</button>`
 
   window.appendChild(popup);
   header.appendChild(window);
+
+
 })
