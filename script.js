@@ -22,5 +22,8 @@ open.addEventListener('click', () => {
   window.appendChild(popup);
   header.appendChild(window);
 
-
+  const close = document.querySelector('.close');
+  close.addEventListener('click', () => {
+    header.remove('window');
+  })
 })
