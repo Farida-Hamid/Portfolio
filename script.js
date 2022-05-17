@@ -12,10 +12,10 @@ open.addEventListener('click',()=> {
   popup.innerHTML = `<div class="all">
   <button type='button' class="close">X</button>
   <i class="fa-solid fa-xmark close"></i>
-  <ul class="popup">
-  <li id="portifolio">Portifolio</li>
-  <li id="about">About</li>
-  <li id="contact">Contact</li>
+  <ul id="popup">
+  <li>Portifolio</li>
+  <li>About</li>
+  <li>Contact</li>
   </ul>
     </div>`;
 

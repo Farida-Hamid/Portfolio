@@ -40,33 +40,9 @@ header {
   mix-blend-mode: multiply;
 }
 
-#portifolio {
-  display: flex;
-  align-items: center;
-  font-style: normal;
+#popup {
   font-weight: 600;
   font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
-#about {
-  display: flex;
-  align-items: center;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
-#contact {
-  display: flex;
-  align-items: center;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
   color: #fff;
 }
 
