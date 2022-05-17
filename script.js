@@ -37,9 +37,8 @@ showProject.addEventListener('click', () => {
   const window = document.createElement('div');
   window.className = 'window';
   const projectPopup = document.createElement('div');
-  projectPopup.className = 'projectPopup';
+  projectPopup.className = 'project-popup';
   projectPopup.innerHTML = `
-  <div class="container-desktop-popup">
     <div class="desktop-window">
       <div class="desktop-top-popup">
         <h2>Tonic</h2>
@@ -53,7 +52,6 @@ showProject.addEventListener('click', () => {
         <li><a>2015</a></li>
       </ul>
       <img class="desktop-popup-snapshot" src="./images/Snapshoot-Portfolio-popup.svg" alt="project 1 snapshot">
-    </div>
   </div>`;
 
   window.appendChild(projectPopup);

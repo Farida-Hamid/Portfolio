@@ -419,9 +419,7 @@ textarea {
     width: 90%;
     height: 90%;
     background: white;
-    /* Neutrals/N30 - L */
     border: 5px solid black;
-    /* Base/ Soft */
     box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;
   }
@@ -434,7 +432,7 @@ textarea {
     width: 100%;
   }
 
-  .container-desktop-popup {
+  .project-popup {
     bottom: 0px;
     display: block;
     position: fixed;
