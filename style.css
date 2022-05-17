@@ -25,56 +25,49 @@ header {
   display: none;
 }
 
-.all{
+.all {
   display: block;
-  position: fixed;
-  /* position: absolute; */
+  position: fixed; /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: #6070ff;
   backdrop-filter: blur(8px);
+
   /* opacity: 0.9;
   z-index: 99; */
-mix-blend-mode: multiply;
+  mix-blend-mode: multiply;
 }
 
-#portifolio{
+#portifolio {
   display: flex;
-align-items: center;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 44px;
-color: #FFFFFF;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
 }
 
-#about{
-  
-    display: flex;
+#about {
+  display: flex;
   align-items: center;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  /* Theme 1 / Neutrals 11 */
-  
-  color: #FFFFFF;
-  
-  }
+  color: #fff;
+}
 
-#contact{
-    display: flex;
+#contact {
+  display: flex;
   align-items: center;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 main {
