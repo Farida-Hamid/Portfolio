@@ -11,12 +11,19 @@ open.addEventListener('click',()=> {
   const popup = document.createElement('div');
   popup.className = 'popup';
   popup.innerHTML = `<div class="all">
+  <i class="fa-solid fa-xmark close"></i>
+  <ul class="popup">
+  <li id="portifolio">portifolio</li>
+  <li id="about">about</li>
+  <li id="contact">contact</li>
+  </ul>
+    </div>`;
 
-  <span>Portifolio</span>
-  <span>about</span>
-  <span>contact</span>
-  </div>`
 
   window.appendChild(popup);
   header.appendChild(window);
+  const close = document.querySelector('.close');
+  close.addEventListener('click', () => {
+    header.removeChild(window);
+  });
 })
