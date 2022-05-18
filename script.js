@@ -12,7 +12,7 @@ open.addEventListener('click', () => {
   popup.innerHTML = `
   <div class="all">
     <button type='button' class="close-button">X</button>
-    <ul id="popup">
+    <ul class="list-popup">
         <li><a href="#port">Portifolio</a></li>
         <li><a href="#about-me">About</a></li>
         <li><a href="#form-section" </a>Contact</li>
