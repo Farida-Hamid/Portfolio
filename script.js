@@ -1,4 +1,4 @@
-const header = document.querySelector('header');
+const header = document.querySelector('body');
 const section = document.createElement('section');
 header.appendChild(section);
 
@@ -13,9 +13,9 @@ open.addEventListener('click', () => {
   <button type='button' class="close-button">X</button>
   <i class="fa-solid fa-xmark close"></i>
   <ul id="popup">
-  <li>Portifolio</li>
-  <li>About</li>
-  <li>Contact</li>
+  <li><a href="#port">Portifolio</a></li>
+  <li><a href="#about-me">About</a></li>
+  <li><a href="#form-section" </a>Contact</li>
   </ul>
     </div>`;
 
