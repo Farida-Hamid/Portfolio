@@ -9,15 +9,15 @@ open.addEventListener('click', () => {
   window.className = 'window';
   const popup = document.createElement('div');
   popup.className = 'popup';
-  popup.innerHTML = `<div class="all">
-  <button type='button' class="close-button">X</button>
-  <i class="fa-solid fa-xmark close"></i>
-  <ul id="popup">
-  <li><a href="#port">Portifolio</a></li>
-  <li><a href="#about-me">About</a></li>
-  <li><a href="#form-section" </a>Contact</li>
-  </ul>
-    </div>`;
+  popup.innerHTML = `
+  <div class="all">
+    <button type='button' class="close-button">X</button>
+    <ul id="popup">
+        <li><a href="#port">Portifolio</a></li>
+        <li><a href="#about-me">About</a></li>
+        <li><a href="#form-section" </a>Contact</li>
+    </ul>
+  </div>`;
 
   window.appendChild(popup);
   header.appendChild(window);
