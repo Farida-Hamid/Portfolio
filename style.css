@@ -4,7 +4,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-header {
+#mobile-header {
   display: flex;
   justify-content: space-between;
   margin: 26px 25px 0 25px;
@@ -13,6 +13,7 @@ header {
 #menue-button {
   padding-top: 7px;
   padding-bottom: 7px;
+  border: 0;
 }
 
 #logo {
