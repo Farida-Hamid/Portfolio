@@ -10,7 +10,7 @@ open.addEventListener('click', () => {
   const popup = document.createElement('div');
   popup.className = 'popup';
   popup.innerHTML = `<div class="all">
-  <button type='button' class="close">X</button>
+  <button type='button' class="close-button">X</button>
   <i class="fa-solid fa-xmark close"></i>
   <ul id="popup">
   <li>Portifolio</li>
@@ -21,7 +21,7 @@ open.addEventListener('click', () => {
 
   window.appendChild(popup);
   header.appendChild(window);
-  const close = document.querySelector('.close');
+  const close = document.querySelector('.close-button');
   close.addEventListener('click', () => {
     header.removeChild(window);
   });

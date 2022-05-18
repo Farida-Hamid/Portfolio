@@ -16,6 +16,12 @@ body {
   border: 0;
 }
 
+.close-button {
+  border:0;
+  background: none;
+  color: #fff;
+}
+
 #logo {
   color: #6070ff;
   font-weight: 700;
