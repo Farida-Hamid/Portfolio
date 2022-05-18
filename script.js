@@ -10,12 +10,14 @@ open.addEventListener('click', () => {
   const popup = document.createElement('div');
   popup.className = 'popup';
   popup.innerHTML = `
+  <section class="bg"></section>
+
   <div class="all">
     <button type='button' class="close-button">X</button>
     <ul class="list-popup">
-        <li><a href="#port">Portifolio</a></li>
-        <li><a href="#about-me">About</a></li>
-        <li><a href="#form-section" </a>Contact</li>
+        <li><a id="closer1" href="#port">Portifolio</a></li>
+        <li><a id="closer2" href="#about-me">About</a></li>
+        <li><a id="closer3" href="#form-section" </a>Contact</li>
     </ul>
   </div>`;
 
@@ -23,6 +25,15 @@ open.addEventListener('click', () => {
   header.appendChild(window);
   const close = document.querySelector('.close-button');
   close.addEventListener('click', () => {
+    header.removeChild(window);
+  });
+  document.querySelector('#closer1').addEventListener('click', () => {
+    header.removeChild(window);
+  });
+  document.querySelector('#closer2').addEventListener('click', () => {
+    header.removeChild(window);
+  });
+  document.querySelector('#closer3').addEventListener('click', () => {
     header.removeChild(window);
   });
 });
