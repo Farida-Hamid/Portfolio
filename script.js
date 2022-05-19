@@ -41,7 +41,7 @@ open.addEventListener('click', () => {
 
 // Project popup window
 
-const buttonOne = document.querySelectorAll('.show-project');
+const seeProject = document.querySelectorAll('.show-project');
 
 const projects = [
   {
@@ -50,7 +50,7 @@ const projects = [
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     tags: ['html', 'css', 'javascript'],
-    image: '/assets/projects/project-2.png',
+    image: './images/Snapshoot1-Portfolio.svg',
     liveButton: 'See Live',
     sourceButton: 'See Source',
     live: 'images/live-version2.svg',
@@ -95,11 +95,30 @@ const projects = [
 ];
 
 
-function showProject(){
+function showProject(index){
   const showProject = document.querySelector('.show-project');
 
   const main = document.querySelector('main');
   const project = document.createElement('project');
+
+  const {
+    title,
+    devs,
+    description,
+    tags,
+    image,
+    liveButton,
+    sourceButton,
+  } = projects[index];
+  const dev1 = devs[0];
+  const dev2 = devs[1];
+  const dev3 = devs[2];
+  const dev4 = devs[3];
+  const dev5 = devs[4];
+  const tag1 = tags[0];
+  const tag2 = tags[1];
+  const tag3 = tags[2];
+
   main.appendChild(project);
   showProject.addEventListener('click', () => {
     const projectPopup = document.createElement('div');
@@ -107,17 +126,17 @@ function showProject(){
     projectPopup.innerHTML = `
       <div class="desktop-window">
         <div class="desktop-top-popup">
-          <h2>Tonic</h2>
+          <h2>${title}</h2>
           <button type='button' class="close-button">X</button>
           </div>
         <ul class="tech">
-          <li class="company-name"><a>company</a></li>
-          <li><a href="#"><img src="images/Counter.png" alt="dot"></a></li>
-          <li><a>Back End Dev</a></li>
-          <li><a href="#"><img src="images/Counter.png" alt="dot"></a></li>
-          <li><a>2015</a></li>
+        <li class="dev1">${dev1}</li>
+        <li class="dev2">${dev2}</li>
+        <li class="dev3">${dev3}</li>
+        <li class="dev4">${dev4}</li>
+        <li class="dev5">${dev5}</li>
         </ul>
-        <img class="desktop-popup-snapshot" src="./images/Snapshoot1-Portfolio.svg" alt="project 1 snapshot">
+        <img class="desktop-popup-snapshot" src=${image} alt="project 1 snapshot">
     </div>`;
 
     main.appendChild(projectPopup);
@@ -128,4 +147,4 @@ function showProject(){
   })
 }
 
-showProject ()
+showProject (0)
