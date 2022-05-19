@@ -95,9 +95,7 @@ const projects = [
 
 function display(index){
   const main = document.querySelector('main');
-  const project = document.createElement('project');
-  main.appendChild(project);
-
+  
   const {
     title,
     devs,
