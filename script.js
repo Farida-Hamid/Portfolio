@@ -130,12 +130,14 @@ function display(index){
       <li class="dev5">${dev5}</li>
       </ul>
       <img class="desktop-popup-snapshot" src=${image} alt="project 1 snapshot">
-      <p class="p-popup">${description}</p>
       <ul class="prog-languages">
         <li class="lang">${tag1}</li>
         <li class="lang">${tag2}</li>
         <li class="lang">${tag3}</li>
       </ul>
+      <hr>
+
+
   </div>`;
 
   main.appendChild(projectPopup);
