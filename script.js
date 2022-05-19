@@ -100,8 +100,6 @@ const main = document.querySelector('main');
 const project = document.createElement('project');
 main.appendChild(project);
 showProject.addEventListener('click', () => {
-  const window = document.createElement('div');
-  window.className = 'big-window';
   const projectPopup = document.createElement('div');
   projectPopup.className = 'project-popup';
   projectPopup.innerHTML = `
@@ -120,10 +118,9 @@ showProject.addEventListener('click', () => {
       <img class="desktop-popup-snapshot" src="./images/Snapshoot1-Portfolio.svg" alt="project 1 snapshot">
   </div>`;
 
-  window.appendChild(projectPopup);
-  main.appendChild(window);
+  main.appendChild(projectPopup);
   const close = document.querySelector('.close-button');
     close.addEventListener('click', () => {
-    main.removeChild(window);
+    main.removeChild(projectPopup);
   });
 })
