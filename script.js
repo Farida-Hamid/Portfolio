@@ -94,33 +94,38 @@ const projects = [
   },
 ];
 
-const showProject = document.querySelector('.show-project');
 
-const main = document.querySelector('main');
-const project = document.createElement('project');
-main.appendChild(project);
-showProject.addEventListener('click', () => {
-  const projectPopup = document.createElement('div');
-  projectPopup.className = 'project-popup';
-  projectPopup.innerHTML = `
-    <div class="desktop-window">
-      <div class="desktop-top-popup">
-        <h2>Tonic</h2>
-        <button type='button' class="close-button">X</button>
-        </div>
-      <ul class="tech">
-        <li class="company-name"><a>company</a></li>
-        <li><a href="#"><img src="images/Counter.png" alt="dot"></a></li>
-        <li><a>Back End Dev</a></li>
-        <li><a href="#"><img src="images/Counter.png" alt="dot"></a></li>
-        <li><a>2015</a></li>
-      </ul>
-      <img class="desktop-popup-snapshot" src="./images/Snapshoot1-Portfolio.svg" alt="project 1 snapshot">
-  </div>`;
+function showProject(){
+  const showProject = document.querySelector('.show-project');
 
-  main.appendChild(projectPopup);
-  const close = document.querySelector('.close-button');
-    close.addEventListener('click', () => {
-    main.removeChild(projectPopup);
-  });
-})
+  const main = document.querySelector('main');
+  const project = document.createElement('project');
+  main.appendChild(project);
+  showProject.addEventListener('click', () => {
+    const projectPopup = document.createElement('div');
+    projectPopup.className = 'project-popup';
+    projectPopup.innerHTML = `
+      <div class="desktop-window">
+        <div class="desktop-top-popup">
+          <h2>Tonic</h2>
+          <button type='button' class="close-button">X</button>
+          </div>
+        <ul class="tech">
+          <li class="company-name"><a>company</a></li>
+          <li><a href="#"><img src="images/Counter.png" alt="dot"></a></li>
+          <li><a>Back End Dev</a></li>
+          <li><a href="#"><img src="images/Counter.png" alt="dot"></a></li>
+          <li><a>2015</a></li>
+        </ul>
+        <img class="desktop-popup-snapshot" src="./images/Snapshoot1-Portfolio.svg" alt="project 1 snapshot">
+    </div>`;
+
+    main.appendChild(projectPopup);
+    const close = document.querySelector('.close-button');
+      close.addEventListener('click', () => {
+      main.removeChild(projectPopup);
+    });
+  })
+}
+
+showProject ()
