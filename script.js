@@ -104,6 +104,8 @@ function display(index){
     image,
     liveButton,
     sourceButton,
+    live,
+    source,
   } = projects[index];
   const dev1 = devs[0];
   const dev2 = devs[1];
@@ -130,14 +132,17 @@ function display(index){
       <li class="dev5">${dev5}</li>
       </ul>
       <img class="desktop-popup-snapshot" src=${image} alt="project 1 snapshot">
+      <p class="p-popup">${description}</p>
       <ul class="prog-languages">
         <li class="lang">${tag1}</li>
         <li class="lang">${tag2}</li>
         <li class="lang">${tag3}</li>
       </ul>
       <hr>
-
-
+      <button type='button' class="popup-button">
+        <img class="desktop-popup-snapshot" src=${live}>
+        ${liveButton}
+      </button>
   </div>`;
 
   main.appendChild(projectPopup);
