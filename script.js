@@ -40,7 +40,6 @@ open.addEventListener('click', () => {
 });
 
 // Project popup window
-
 const seeProject = document.querySelectorAll('.show-project');
 
 const projects = [
@@ -94,12 +93,10 @@ const projects = [
   },
 ];
 
-
-function showProject(index){
-  const showProject = document.querySelector('.show-project');
-
+function display(index){
   const main = document.querySelector('main');
   const project = document.createElement('project');
+  main.appendChild(project);
 
   const {
     title,
@@ -119,32 +116,31 @@ function showProject(index){
   const tag2 = tags[1];
   const tag3 = tags[2];
 
-  main.appendChild(project);
-  showProject.addEventListener('click', () => {
-    const projectPopup = document.createElement('div');
-    projectPopup.className = 'project-popup';
-    projectPopup.innerHTML = `
-      <div class="desktop-window">
-        <div class="desktop-top-popup">
-          <h2>${title}</h2>
-          <button type='button' class="close-button">X</button>
-          </div>
-        <ul class="tech">
-        <li class="dev1">${dev1}</li>
-        <li class="dev2">${dev2}</li>
-        <li class="dev3">${dev3}</li>
-        <li class="dev4">${dev4}</li>
-        <li class="dev5">${dev5}</li>
-        </ul>
-        <img class="desktop-popup-snapshot" src=${image} alt="project 1 snapshot">
-    </div>`;
+  const projectPopup = document.createElement('div');
+  projectPopup.className = 'project-popup';
+  projectPopup.innerHTML = `
+    <div class="desktop-window">
+      <div class="desktop-top-popup">
+        <h2>${title}</h2>
+        <button type='button' class="close-button">X</button>
+        </div>
+      <ul class="tech">
+      <li class="dev1">${dev1}</li>
+      <li class="dev2">${dev2}</li>
+      <li class="dev3">${dev3}</li>
+      <li class="dev4">${dev4}</li>
+      <li class="dev5">${dev5}</li>
+      </ul>
+      <img class="desktop-popup-snapshot" src=${image} alt="project 1 snapshot">
+  </div>`;
 
-    main.appendChild(projectPopup);
-    const close = document.querySelector('.close-button');
-      close.addEventListener('click', () => {
-      main.removeChild(projectPopup);
-    });
-  })
+  main.appendChild(projectPopup);
+  const close = document.querySelector('.close-button');
+  close.addEventListener('click', () => {
+    main.removeChild(projectPopup);
+  });
 }
 
-showProject (0)
+for (let i = 0; i < seeProject.length; i++) {
+  seeProject[i].addEventListener('click', () => display(i));
+}
