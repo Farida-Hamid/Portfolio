@@ -436,8 +436,8 @@ textarea {
 
   .desktop-window {
     position: absolute;
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
     padding: 0;
     background: white;
     border: 5px solid black;
@@ -467,7 +467,7 @@ textarea {
   }
 
   .desktop-popup-snapshot {
-    width: 90%;
+    width: 70%;
     height: auto;
   }
 }
