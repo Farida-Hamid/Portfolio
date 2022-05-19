@@ -48,12 +48,12 @@ const projects = [
     devs: ['CANOPY', '•', 'Back End Dev', '•', '2015'],
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-    tags: ['html', 'css', 'javascript'],
+    tags: ['html', 'css', 'javascript', ''],
     image: './images/Snapshoot1-Portfolio.svg',
     liveButton: 'See Live',
     sourceButton: 'See Source',
     live: 'images/live-version2.svg',
-    source: 'images/live-version1.svg',
+    source: 'images/live-version.svg',
   },
   {
     title: 'Multi-Post Stories',
@@ -65,7 +65,7 @@ const projects = [
     liveButton: 'See Live',
     sourceButton: 'See Source',
     live: 'images/live-version2.svg',
-    source: 'images/live-version1.svg',
+    source: 'images/live-version.svg',
   },
   {
     title: 'Facebook 360',
@@ -77,8 +77,8 @@ const projects = [
       liveButton: 'See Live',
       sourceButton: 'See Source',
       live: 'images/live-version2.svg',
-      source: 'images/live-version1.svg',
-  },
+      source: 'images/live-version.svg',
+    },
   {
   title: 'Uber Navigation',
     devs: ['Uber', '•', 'Lead Developer', '•', '2018'],
@@ -89,7 +89,7 @@ const projects = [
     liveButton: 'See Live',
     sourceButton: 'See Source',
     live: 'images/live-version2.svg',
-    source: 'images/live-version1.svg',
+    source: 'images/live-version.svg',
   },
 ];
 
@@ -115,6 +115,7 @@ function display(index){
   const tag1 = tags[0];
   const tag2 = tags[1];
   const tag3 = tags[2];
+  const tag4 = tags[3];
 
   const projectPopup = document.createElement('div');
   projectPopup.className = 'project-popup';
@@ -137,6 +138,7 @@ function display(index){
         <li class="lang">${tag1}</li>
         <li class="lang">${tag2}</li>
         <li class="lang">${tag3}</li>
+        <li class="lang">${tag4}</li>
       </ul>
       <hr>
       <button type='button' class="popup-button">
