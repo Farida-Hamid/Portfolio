@@ -143,6 +143,10 @@ function display(index){
         <img class="desktop-popup-snapshot" src=${live}>
         ${liveButton}
       </button>
+      <button type='button' class="popup-button">
+        <img class="desktop-popup-snapshot" src=${source}>
+        ${sourceButton}
+    </button>
   </div>`;
 
   main.appendChild(projectPopup);
