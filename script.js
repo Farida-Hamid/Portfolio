@@ -142,12 +142,12 @@ function display(index){
       </ul>
       <hr>
       <button type='button' class="popup-button">
-        <img class="desktop-popup-snapshot" src=${live}>
-        ${liveButton}
+      ${liveButton}
+      <img class="desktop-popup-snapshot" src=${live}>
       </button>
       <button type='button' class="popup-button">
-        <img class="desktop-popup-snapshot" src=${source}>
-        ${sourceButton}
+      ${sourceButton}
+      <img class="desktop-popup-snapshot" src=${source}>
     </button>
   </div>`;
 

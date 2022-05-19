@@ -337,6 +337,16 @@ textarea {
   margin-right: 211px;
 }
 
+.popup-button {
+  display: flex;
+  width: fit-content;
+}
+
+.desktop-popup-snapshot {
+  width: 1%; 
+  height: 1%;
+}
+
 @media (min-width: 768px) {
   #intro {
     background: url("./images/Header-bg.svg ") no-repeat;
@@ -469,5 +479,10 @@ textarea {
   .desktop-popup-snapshot {
     width: 70%;
     height: auto;
+  }
+
+  .desktop-popup-snapshot {
+    width: 20px; 
+    height: 20px;
   }
 }
