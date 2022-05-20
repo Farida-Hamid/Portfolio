@@ -445,13 +445,14 @@ textarea {
   }
 
   .desktop-window {
-    margin: 2.5rem 1rem;
+    margin: 0;
     background-color: white;
     border-radius: 1rem;
     width: 90%;
-    height: auto;
+    height: 200%;
+    padding: 0;
   }
-
+  
   .desktop-top-popup {
     display: flex;
     justify-content: space-between;
@@ -468,8 +469,8 @@ textarea {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #c1c7d0e5;
-    backdrop-filter: blur(0.126rem);
+    background-color: #c1c7d000;
+    backdrop-filter: blur(0.8rem);
     }
 
   .desktop-popup-snapshot {
@@ -477,14 +478,10 @@ textarea {
     height: auto;
   }
 
-  .desktop-popup-snapshot {
-    width: 20px; 
-    height: 20px;
-  }
-
   .all {
     display: flex;
     flex-direction: column;
-    margin: 0.625rem 0.625rem;
+    margin: 1%;
+    padding: 1%;
   }
 }
