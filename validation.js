@@ -5,5 +5,9 @@ form.addEventListener('submit', (e) => {
   const messages = [];
   if (email.value.match(/^[a-z@.0-9-_]*$/)) {
     messages.push('your email is correct');
+  } else {
+    e.preventDefault();
+    messages.push('Enter the email in lower case to continue');
+    errorElement.innerText = messages.join(', ');
   }
 });
