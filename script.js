@@ -137,9 +137,9 @@ function display(index){
         <div class="bottom-container">
           <p class="p-popup">${description}</p>
           <div class="small-container">
-            <ul class="prog-languages" style="min-width:303px;">
+            <ul class="prog-languages">
               <li class="lang">${tag1}</li>
-              <li class="lang">${tag2}</li>
+              <li class="lang"  style="min-width: fit-content;">${tag2}</li>
               <li class="lang">${tag3}</li>
               <li class="lang">${tag4}</li>
             </ul>
