@@ -46,8 +46,7 @@ const projects = [
   {
     title: 'Tonic',
     devs: ['CANOPY', '•', 'Back End Dev', '•', '2015'],
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     tags: ['html', 'css', 'javascript', ''],
     image: './images/Snapshoot1-Portfolio.svg',
     liveButton: 'See Live',
@@ -58,8 +57,7 @@ const projects = [
   {
     title: 'Multi-Post Stories',
     devs: ['FACEBOOK', '•', 'Full Stack Dev', '•', '2015'],
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     tags: ['html', 'Ruby on rails', 'css', 'javascript'],
     image: './images/Snapshoot-Portfolio-2.png',
     liveButton: 'See Live',
@@ -70,20 +68,18 @@ const projects = [
   {
     title: 'Facebook 360',
     devs: ['FACEBOOK', '•', 'Full Stack Dev', '•', '2015'],
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-      tags: ['html', 'Ruby on rails', 'css', 'javascript'],
-      image: './images/Snapshoot-Portfolio-3.png',
-      liveButton: 'See Live',
-      sourceButton: 'See Source',
-      live: 'images/live-version2.svg',
-      source: 'images/live-version.svg',
-    },
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    tags: ['html', 'Ruby on rails', 'css', 'javascript'],
+    image: './images/Snapshoot-Portfolio-3.png',
+    liveButton: 'See Live',
+    sourceButton: 'See Source',
+    live: 'images/live-version2.svg',
+    source: 'images/live-version.svg',
+  },
   {
-  title: 'Uber Navigation',
+    title: 'Uber Navigation',
     devs: ['Uber', '•', 'Lead Developer', '•', '2018'],
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     tags: ['html', 'Ruby on rails', 'css', 'javascript'],
     image: './images/Snapshoot-Portfolio4.png',
     liveButton: 'See Live',
@@ -93,9 +89,8 @@ const projects = [
   },
 ];
 
-function display(index){
+function display(index) {
   const main = document.querySelector('main');
-  
   const {
     title,
     devs,
@@ -121,7 +116,7 @@ function display(index){
   projectPopup.className = 'project-popup';
   projectPopup.innerHTML = `
     <div class="desktop-window">
-    <div class="all">
+    <div class="all-popup">
         <div class="desktop-top-popup">
           <h2>${title}</h2>
           <button type='button' class="close-button">X</button>
@@ -167,6 +162,6 @@ function display(index){
   });
 }
 
-for (let i = 0; i < seeProject.length; i++) {
+for (let i = 0; i < seeProject.length; i += 1) {
   seeProject[i].addEventListener('click', () => display(i));
 }

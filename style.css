@@ -344,11 +344,6 @@ textarea {
   margin-right: 1%;
 }
 
-.desktop-popup-snapshot {
-  width: 1%; 
-  height: 1%;
-}
-
 .desktop-window {
   margin: 0;
   background-color: white;
@@ -368,7 +363,7 @@ textarea {
 
 .desktop-top-popup .close-button {
   margin: 0;
-  padding:0;
+  padding: 0;
   color: black;
 }
 
@@ -387,7 +382,7 @@ textarea {
   height: 100%;
   background-color: #c1c7d000;
   backdrop-filter: blur(0.8rem);
-  }
+}
 
 .desktop-popup-snapshot {
   width: 90%;
@@ -395,7 +390,7 @@ textarea {
   align-self: center;
 }
 
-.all {
+.all-popup {
   display: flex;
   flex-direction: column;
   margin: 1%;
@@ -550,7 +545,7 @@ textarea {
     height: 100%;
     background-color: #c1c7d000;
     backdrop-filter: blur(0.8rem);
-    }
+  }
 
   .desktop-popup-snapshot {
     width: 90%;
@@ -558,7 +553,7 @@ textarea {
     align-self: center;
   }
 
-  .all {
+  .all-popup {
     display: flex;
     flex-direction: column;
     margin: 1%;
