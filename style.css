@@ -503,6 +503,8 @@ textarea {
     margin-top: 1%;
     padding: 0;
     gap: 5%;
+    align-self: center;
+    width: 90%;
   }
 
   .small-container {
