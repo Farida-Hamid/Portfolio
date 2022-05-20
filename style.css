@@ -337,6 +337,11 @@ textarea {
   margin-right: 211px;
 }
 
+#error-message {
+  font-size: 17px;
+  padding: 10px;
+}
+
 @media (min-width: 768px) {
   #intro {
     background: url("./images/Header-bg.svg ") no-repeat;
