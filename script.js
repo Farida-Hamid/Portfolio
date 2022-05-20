@@ -134,22 +134,26 @@ function display(index){
         <li class="dev5">${dev5}</li>
         </ul>
         <img class="desktop-popup-snapshot" src=${image} alt="project 1 snapshot">
-        <p class="p-popup">${description}</p>
-        <ul class="prog-languages">
-          <li class="lang">${tag1}</li>
-          <li class="lang">${tag2}</li>
-          <li class="lang">${tag3}</li>
-          <li class="lang">${tag4}</li>
-        </ul>
-        <hr>
-        <button type='button' class="popup-button">
-        ${liveButton}
-        <img class="desktop-popup-snapshot" src=${live}>
-        </button>
-        <button type='button' class="popup-button">
-        ${sourceButton}
-        <img class="desktop-popup-snapshot" src=${source}>
-        </button>
+        <div class="bottom-container">
+          <p class="p-popup">${description}</p>
+          <div class="small-container">
+            <ul class="prog-languages">
+              <li class="lang">${tag1}</li>
+              <li class="lang">${tag2}</li>
+              <li class="lang">${tag3}</li>
+              <li class="lang">${tag4}</li>
+            </ul>
+            <hr>
+            <button type='button' class="popup-button">
+              ${liveButton}
+              <img class="button-logo" src=${live}>
+            </button>
+            <button type='button' class="popup-button">
+              ${sourceButton}
+              <img class="button-logo" src=${source}>
+            </button>
+          </div>
+        </div>
       </div>
     </div>`;
 

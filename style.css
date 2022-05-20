@@ -495,4 +495,14 @@ textarea {
     size: 20px;
     margin-left: 10px;
   }
+
+  .bottom-container {
+    /* padding-top: 3%; */
+    display: flex;
+  }
+
+  .small-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
