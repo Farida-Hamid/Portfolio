@@ -481,8 +481,9 @@ textarea {
     }
 
   .desktop-popup-snapshot {
-    width: 70%;
+    width: 90%;
     height: auto;
+    align-self: center;
   }
 
   .all {
@@ -498,7 +499,6 @@ textarea {
   }
 
   .bottom-container {
-    /* padding-top: 3%; */
     display: flex;
     margin-top: 1%;
     padding: 0;
