@@ -137,7 +137,7 @@ function display(index){
         <div class="bottom-container">
           <p class="p-popup">${description}</p>
           <div class="small-container">
-            <ul class="prog-languages">
+            <ul class="prog-languages" style="min-width:303px;">
               <li class="lang">${tag1}</li>
               <li class="lang">${tag2}</li>
               <li class="lang">${tag3}</li>
@@ -157,7 +157,8 @@ function display(index){
           </div>
         </div>
       </div>
-    </div>`;
+    </div>
+    <div></div>`;
 
   main.appendChild(projectPopup);
   const close = document.querySelector('.close-button');

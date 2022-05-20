@@ -451,7 +451,6 @@ textarea {
     background-color: white;
     border-radius: 1rem;
     width: 90%;
-    height: 200%;
     padding: 0;
   }
 
@@ -464,7 +463,7 @@ textarea {
   }
 
   .p-popup {
-    max-width: 778px;
+    max-width: 100%;
     margin: 0;
   }
 
