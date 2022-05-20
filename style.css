@@ -340,6 +340,8 @@ textarea {
 .popup-button {
   display: flex;
   width: fit-content;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .desktop-popup-snapshot {
@@ -487,5 +489,10 @@ textarea {
     flex-direction: column;
     margin: 1%;
     padding: 1%;
+  }
+
+  .button-logo {
+    size: 20px;
+    margin-left: 10px;
   }
 }
