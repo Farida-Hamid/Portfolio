@@ -143,7 +143,7 @@ function display(index){
               <li class="lang">${tag3}</li>
               <li class="lang">${tag4}</li>
             </ul>
-            <hr>
+            <section class="buttons">
             <button type='button' class="popup-button">
               ${liveButton}
               <img class="button-logo" src=${live}>
@@ -152,6 +152,7 @@ function display(index){
               ${sourceButton}
               <img class="button-logo" src=${source}>
             </button>
+            </section>
           </div>
         </div>
       </div>
