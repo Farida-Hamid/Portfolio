@@ -121,35 +121,37 @@ function display(index){
   projectPopup.className = 'project-popup';
   projectPopup.innerHTML = `
     <div class="desktop-window">
-      <div class="desktop-top-popup">
-        <h2>${title}</h2>
-        <button type='button' class="close-button">X</button>
-        </div>
-      <ul class="tech">
-      <li class="dev1">${dev1}</li>
-      <li class="dev2">${dev2}</li>
-      <li class="dev3">${dev3}</li>
-      <li class="dev4">${dev4}</li>
-      <li class="dev5">${dev5}</li>
-      </ul>
-      <img class="desktop-popup-snapshot" src=${image} alt="project 1 snapshot">
-      <p class="p-popup">${description}</p>
-      <ul class="prog-languages">
-        <li class="lang">${tag1}</li>
-        <li class="lang">${tag2}</li>
-        <li class="lang">${tag3}</li>
-        <li class="lang">${tag4}</li>
-      </ul>
-      <hr>
-      <button type='button' class="popup-button">
-      ${liveButton}
-      <img class="desktop-popup-snapshot" src=${live}>
-      </button>
-      <button type='button' class="popup-button">
-      ${sourceButton}
-      <img class="desktop-popup-snapshot" src=${source}>
-    </button>
-  </div>`;
+    <div class="all">
+        <div class="desktop-top-popup">
+          <h2>${title}</h2>
+          <button type='button' class="close-button">X</button>
+          </div>
+        <ul class="tech">
+        <li class="dev1">${dev1}</li>
+        <li class="dev2">${dev2}</li>
+        <li class="dev3">${dev3}</li>
+        <li class="dev4">${dev4}</li>
+        <li class="dev5">${dev5}</li>
+        </ul>
+        <img class="desktop-popup-snapshot" src=${image} alt="project 1 snapshot">
+        <p class="p-popup">${description}</p>
+        <ul class="prog-languages">
+          <li class="lang">${tag1}</li>
+          <li class="lang">${tag2}</li>
+          <li class="lang">${tag3}</li>
+          <li class="lang">${tag4}</li>
+        </ul>
+        <hr>
+        <button type='button' class="popup-button">
+        ${liveButton}
+        <img class="desktop-popup-snapshot" src=${live}>
+        </button>
+        <button type='button' class="popup-button">
+        ${sourceButton}
+        <img class="desktop-popup-snapshot" src=${source}>
+        </button>
+      </div>
+    </div>`;
 
   main.appendChild(projectPopup);
   const close = document.querySelector('.close-button');
