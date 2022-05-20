@@ -143,6 +143,7 @@ function display(index){
               <li class="lang">${tag3}</li>
               <li class="lang">${tag4}</li>
             </ul>
+            <hr class="line">
             <section class="buttons">
             <button type='button' class="popup-button">
               ${liveButton}

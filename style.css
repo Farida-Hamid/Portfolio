@@ -516,4 +516,8 @@ textarea {
   .buttons {
     display: flex;
   }
+
+  .line {
+    margin: 20px 0 20px 0;
+  }
 }
