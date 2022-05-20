@@ -465,6 +465,7 @@ textarea {
 
   .p-popup {
     max-width: 778px;
+    margin: 0;
   }
 
   .project-popup {
@@ -499,10 +500,14 @@ textarea {
   .bottom-container {
     /* padding-top: 3%; */
     display: flex;
+    margin-top: 1%;
+    padding: 0;
+    gap: 5%;
   }
 
   .small-container {
     display: flex;
     flex-direction: column;
+    padding: 0;
   }
 }
