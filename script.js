@@ -89,6 +89,60 @@ const projects = [
   },
 ];
 
+ function show(index) {
+  const {
+    title,
+    devs,
+    description,
+    tags,
+    image,
+    liveButton,
+    sourceButton,
+    live,
+    source,
+  } = projects[index];
+  const dev1 = devs[0];
+  const dev2 = devs[1];
+  const dev3 = devs[2];
+  const dev4 = devs[3];
+  const dev5 = devs[4];
+  const tag1 = tags[0];
+  const tag2 = tags[1];
+  const tag3 = tags[2];
+  const tag4 = tags[3];
+
+const maino = document.querySelector('.previous-work');
+  const project = document.createElement('div');
+  project.className = 'previous-work';
+  project.innerHTML = `
+  <section class="project">
+    <img class="snapshot" src=${image} alt="project 1 snapshot">
+    <div class="project-properties">
+      <h2>${title}</h2>
+      <ul class="tech">
+        <li class="company-name"><a>company</a></li>
+        <li><a href="#"><img src="images/Counter.png" alt="dot"></a></li>
+        <li><a>Back End Dev</a></li>
+        <li><a href="#"><img src="images/Counter.png" alt="dot"></a></li>
+        <li><a>2015</a></li>
+      </ul>
+      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+      <ul class="prog-languages">
+        <li class="lang">html</li>
+        <li class="lang">css</li>
+        <li class="lang">javaScript</li>
+      </ul>
+      <button type='button' class="show-project">See Project</button>
+    </div>
+  </section>
+`;
+
+  maino.appendChild(project);
+}
+for (let i = 0; i < 4; i += 1) {
+  show(i);
+}
+
 function display(index) {
   const main = document.querySelector('main');
   const {
