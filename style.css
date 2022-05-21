@@ -32,11 +32,11 @@ body {
 #top {
   display: none;
 }
-
+/* 
 a {
   text-decoration: none;
   color: inherit;
-}
+} */
 
 .window {
   background-color: #6070ff;
@@ -340,8 +340,8 @@ textarea {
 .popup-button {
   display: flex;
   width: fit-content;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .desktop-window {

@@ -175,14 +175,14 @@ function display(index) {
             </ul>
             <hr class="line">
             <section class="buttons">
-            <button type='button' class="popup-button">
+            <a><button type='button' class="popup-button">
               ${liveButton}
               <img class="button-logo" src=${live}>
-            </button>
-            <button type='button' class="popup-button">
+            </button></a>
+            <a><button type='button' class="popup-button">
               ${sourceButton}
               <img class="button-logo" src=${source}>
-            </button>
+            </button></a>
             </section>
           </div>
         </div>
