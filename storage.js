@@ -15,4 +15,10 @@ function retrieve(){
     email.value = data.email;
     message.value = data.message;
   }
+
+  fullName.addEventListener('input', () => storage(fullName.value, email.value, message.value));
+  email.addEventListener('input', () => storage(fullName.value, email.value, message.value));
+  message.addEventListener('input', () => storage(fullName.value, email.value, message.value));
 }
+
+retrieve();
