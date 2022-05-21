@@ -120,23 +120,23 @@ const maino = document.querySelector('.previous-work');
     <div class="project-properties">
       <h2>${title}</h2>
       <ul class="tech">
-        <li class="company-name"><a>company</a></li>
-        <li><a href="#"><img src="images/Counter.png" alt="dot"></a></li>
-        <li><a>Back End Dev</a></li>
-        <li><a href="#"><img src="images/Counter.png" alt="dot"></a></li>
-        <li><a>2015</a></li>
+      <li class="company-name">${dev1}</li>
+      <li class="dev2">${dev2}</li>
+      <li class="dev3">${dev3}</li>
+      <li class="dev4">${dev4}</li>
+      <li class="dev5">${dev5}</li>
       </ul>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
       <ul class="prog-languages">
-        <li class="lang">html</li>
-        <li class="lang">css</li>
-        <li class="lang">javaScript</li>
+      <li class="lang">${tag1}</li>
+      <li class="lang"  style="min-width: fit-content;">${tag2}</li>
+      <li class="lang">${tag3}</li>
+      <li class="lang">${tag4}</li>
       </ul>
       <button type='button' class="show-project">See Project</button>
     </div>
   </section>
 `;
-
   maino.appendChild(project);
 }
 for (let i = 0; i < 4; i += 1) {
@@ -176,7 +176,7 @@ function display(index) {
           <button type='button' class="close-button">X</button>
           </div>
         <ul class="tech">
-        <li class="dev1">${dev1}</li>
+        <li class="company-name">${dev1}</li>
         <li class="dev2">${dev2}</li>
         <li class="dev3">${dev3}</li>
         <li class="dev4">${dev4}</li>
