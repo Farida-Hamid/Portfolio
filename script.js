@@ -39,8 +39,7 @@ open.addEventListener('click', () => {
   });
 });
 
-// Project popup window
-
+// Project Object
 const projects = [
   {
     title: 'Tonic',
@@ -88,6 +87,7 @@ const projects = [
   },
 ];
 
+// Add project cards
  function show(index) {
   const {
     title,
@@ -142,8 +142,9 @@ for (let i = 0; i < 4; i += 1) {
   show(i);
 }
 
-const seeProject = document.querySelectorAll('.show-project');
 
+// Add popup window
+const seeProject = document.querySelectorAll('.show-project');
 
 function display(index) {
   const main = document.querySelector('main');
