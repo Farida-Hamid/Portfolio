@@ -132,7 +132,7 @@ li {
   flex-direction: column;
   padding: 24px;
   background-color: #fff;
-  margin: 88px 5% 88px 5%;
+  margin: 0 5% 0 5%;
   border-radius: 8px;
   max-height: 496px;
 }
@@ -337,6 +337,90 @@ textarea {
   margin-right: 211px;
 }
 
+.popup-button {
+  display: flex;
+  width: fit-content;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.desktop-window {
+  margin: 0;
+  background-color: white;
+  border-radius: 1rem;
+  width: 90%;
+  padding: 0;
+}
+
+.desktop-top-popup {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 30px;
+}
+
+.desktop-top-popup .close-button {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.p-popup {
+  max-width: 100%;
+  margin: 0;
+}
+
+.project-popup {
+  position: fixed;
+  z-index: 1;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #c1c7d000;
+  backdrop-filter: blur(0.8rem);
+}
+
+.desktop-popup-snapshot {
+  width: 90%;
+  height: auto;
+  align-self: center;
+}
+
+.all-popup {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  padding: 5%;
+}
+
+.button-logo {
+  size: 20px;
+  margin-left: 10px;
+}
+
+.small-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.buttons {
+  display: flex;
+}
+
+.line {
+  margin: 20px 0 20px 0;
+}
+
+.bottom-container {
+  margin-top: 5%;
+  padding: 0;
+}
+
 @media (min-width: 768px) {
   #intro {
     background: url("./images/Header-bg.svg ") no-repeat;
@@ -428,5 +512,10 @@ textarea {
   #form button {
     margin-right: 0;
     align-self: center;
+  }
+
+  .bottom-container {
+    display: flex;
+    gap: 5%;
   }
 }
