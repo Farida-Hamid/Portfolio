@@ -40,7 +40,6 @@ open.addEventListener('click', () => {
 });
 
 // Project popup window
-const seeProject = document.querySelectorAll('.show-project');
 
 const projects = [
   {
@@ -142,6 +141,9 @@ const maino = document.querySelector('.previous-work');
 for (let i = 0; i < 4; i += 1) {
   show(i);
 }
+
+const seeProject = document.querySelectorAll('.show-project');
+
 
 function display(index) {
   const main = document.querySelector('main');
