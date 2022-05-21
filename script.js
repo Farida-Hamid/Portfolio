@@ -88,7 +88,7 @@ const projects = [
 ];
 
 // Add project cards
- function show(index) {
+function show(index) {
   const {
     title,
     devs,
@@ -110,7 +110,7 @@ const projects = [
   const tag3 = tags[2];
   const tag4 = tags[3];
 
-const maino = document.querySelector('.previous-work');
+const main = document.querySelector('.previous-work');
   const project = document.createElement('div');
   project.className = 'previous-work';
   project.innerHTML = `
@@ -136,7 +136,7 @@ const maino = document.querySelector('.previous-work');
     </div>
   </section>
 `;
-  maino.appendChild(project);
+  main.appendChild(project);
 }
 for (let i = 0; i < 4; i += 1) {
   show(i);
