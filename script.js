@@ -96,15 +96,6 @@ function show(index) {
     tags,
     image,
   } = projects[index];
-  const dev1 = devs[0];
-  const dev2 = devs[1];
-  const dev3 = devs[2];
-  const dev4 = devs[3];
-  const dev5 = devs[4];
-  const tag1 = tags[0];
-  const tag2 = tags[1];
-  const tag3 = tags[2];
-  const tag4 = tags[3];
 
   const main = document.querySelector('.previous-work');
   const project = document.createElement('div');
@@ -115,18 +106,18 @@ function show(index) {
     <div class="project-properties">
       <h2>${title}</h2>
       <ul class="tech">
-      <li class="company-name">${dev1}</li>
-      <li class="dev2">${dev2}</li>
-      <li class="dev3">${dev3}</li>
-      <li class="dev4">${dev4}</li>
-      <li class="dev5">${dev5}</li>
+      <li class="company-name">${devs[0]}</li>
+      <li class="dev2">${devs[1]}</li>
+      <li class="dev3">${devs[2]}</li>
+      <li class="dev4">${devs[3]}</li>
+      <li class="dev5">${devs[4]}</li>
       </ul>
       <p>${description[1]}</p>
       <ul class="prog-languages">
-      <li class="lang">${tag1}</li>
-      <li class="lang"  style="min-width: fit-content;">${tag2}</li>
-      <li class="lang">${tag3}</li>
-      <li class="lang">${tag4}</li>
+      <li class="lang">${tags[0]}</li>
+      <li class="lang"  style="min-width: fit-content;">${tags[1]}</li>
+      <li class="lang">${tags[2]}</li>
+      <li class="lang">${tags[3]}</li>
       </ul>
       <button type='button' class="show-project">See Project</button>
     </div>
@@ -155,15 +146,6 @@ function display(index) {
     live,
     source,
   } = projects[index];
-  const dev1 = devs[0];
-  const dev2 = devs[1];
-  const dev3 = devs[2];
-  const dev4 = devs[3];
-  const dev5 = devs[4];
-  const tag1 = tags[0];
-  const tag2 = tags[1];
-  const tag3 = tags[2];
-  const tag4 = tags[3];
 
   const projectPopup = document.createElement('div');
   projectPopup.className = 'project-popup';
@@ -175,21 +157,21 @@ function display(index) {
           <button type='button' class="close-button">X</button>
           </div>
         <ul class="tech">
-        <li class="company-name">${dev1}</li>
-        <li class="dev2">${dev2}</li>
-        <li class="dev3">${dev3}</li>
-        <li class="dev4">${dev4}</li>
-        <li class="dev5">${dev5}</li>
+        <li class="company-name">${devs[0]}</li>
+        <li class="dev2">${devs[1]}</li>
+        <li class="dev3">${devs[2]}</li>
+        <li class="dev4">${devs[3]}</li>
+        <li class="dev5">${devs[4]}</li>
         </ul>
         <img class="desktop-popup-snapshot" src=${image} alt="project 1 snapshot">
         <div class="bottom-container">
           <p class="p-popup">${description[0]}</p>
           <div class="small-container">
             <ul class="prog-languages">
-              <li class="lang">${tag1}</li>
-              <li class="lang"  style="min-width: fit-content;">${tag2}</li>
-              <li class="lang">${tag3}</li>
-              <li class="lang">${tag4}</li>
+              <li class="lang">${tags[0]}</li>
+              <li class="lang"  style="min-width: fit-content;">${tags[1]}</li>
+              <li class="lang">${tags[2]}</li>
+              <li class="lang">${tags[3]}</li>
             </ul>
             <hr class="line">
             <section class="buttons">
