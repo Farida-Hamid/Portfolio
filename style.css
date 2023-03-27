@@ -337,6 +337,10 @@ textarea {
   margin-right: 211px;
 }
 
+#error-message {
+  font-size: 17px;
+  padding: 10px;
+  
 .popup-button {
   display: flex;
   width: fit-content;
